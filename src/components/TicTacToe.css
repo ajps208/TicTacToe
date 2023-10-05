@@ -1,0 +1,36 @@
+.box{
+    display: flex;
+    height: 160px;
+    width: 160px;
+    background-color: black;
+    border: 4px solid;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+.border{
+    height: 560px;
+    width: 564px;
+    margin: auto;
+    display: flex;
+}
+.x-marker {
+    color: cyan; /* Color for X */
+  }
+  
+  .o-marker {
+    color: magenta; /* Color for O */
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+   .box{
+    width: 100px;
+    height: 100px;
+   }
+   .border{
+    height: 80px;
+    width: 80px;
+   }
+  }
+  
